@@ -22,11 +22,7 @@ class GFG36
             System.out.println(ans);
         }
     }
-}// } Driver Code Ends
-
-
-
-
+}
 class Solution28
 {
     //Function to find the minimum number of swaps required to sort the array.

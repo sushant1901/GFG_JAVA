@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.io.*;
@@ -154,4 +154,4 @@ class Spiral
 
         return al;
     }
-}
+}*/
