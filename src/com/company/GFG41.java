@@ -22,8 +22,6 @@ class GFG41 {
         }
     }
 }
-
-
 class Solution41{
     static int maxIndexDiff(int A[], int N) {
 

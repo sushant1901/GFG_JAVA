@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 import java.io.*;
 import java.util.*;
 
@@ -30,3 +30,6 @@ class Solution{
         return num1%num2;
     }
 }
+
+
+ */

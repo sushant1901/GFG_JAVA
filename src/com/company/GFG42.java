@@ -4,7 +4,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Node{
+/*class Node{
     int data;
     Node left;
     Node right;
@@ -12,7 +12,7 @@ class Node{
         data = d;
         left = right = null;
     }
-}
+}*/
 public class GFG42 { //Is_Node__Present_In_BST
     void insert(Node root, int key) {
 

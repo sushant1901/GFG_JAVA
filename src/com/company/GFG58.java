@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -108,7 +108,7 @@ class Node {
     }
 }
 */
-class Solution58{
+/*class Solution58{
     class Pair{
         int lvl;
         int sum;
@@ -150,3 +150,5 @@ class Solution58{
         return ans;
     }
 }
+
+ */

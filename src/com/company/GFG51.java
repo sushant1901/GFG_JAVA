@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.*;
 import java.lang.*;
 
-class Node{
+/*class Node{
     int data;
     Node left;
     Node right;
@@ -116,4 +116,4 @@ class Solution51 {
         return res+1;
 
     }
-}
+}*/

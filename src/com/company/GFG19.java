@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 import java.util.*;
 import java.io.*;
 
@@ -57,7 +57,7 @@ class Node{
     }
 }
 */
-class Solution3
+/*class Solution3
 {
     //Function to insert a node at the beginning of the linked list.
     Node insertAtBeginning(Node head, int x)
@@ -87,3 +87,4 @@ class Solution3
         return head;
     }
 }
+*/

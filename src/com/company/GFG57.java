@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.io.*;
 import java.util.*;
 
-class Node {
+/*class Node {
     int data;
     Node left;
     Node right;
@@ -101,16 +101,7 @@ class GfG57 {
 
 // User function Template for Java
 
-/*class Node {
-    int data;
-    Node left;
-    Node right;
-    Node(int data) {
-        this.data = data;
-        left = null;
-        right = null;
-    }
-}*/
+
 
 class Solution57 {
     // Function to return the diameter of a Binary Tree.
@@ -133,3 +124,5 @@ class Solution57 {
         return 1+Math.max(lh, rh);
     }
 }
+
+ */

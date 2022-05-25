@@ -1,5 +1,5 @@
 package com.company;
-import java.util.LinkedList;
+/*import java.util.LinkedList;
 import java.util.Queue;
 import java.io.*;
 import java.util.*;
@@ -103,23 +103,6 @@ class GfG50 {
 
 }
 
-// } Driver Code Ends
-
-
-//User function Template for Java
-
-/*
-class Node
-{
-    int data;
-    Node left, right;
-    Node(int item)
-    {
-        data = item;
-        left = right = null;
-    }
-}
-*/
 class Solution
 {
     //Function to return the level order traversal of a tree.
@@ -148,3 +131,5 @@ class Solution
         return arr;
     }
 }
+
+ */
