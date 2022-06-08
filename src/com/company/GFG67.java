@@ -22,6 +22,7 @@ class GFG {
             Compute obj = new Compute();
             obj.rotate(a, n);
             
+		
             StringBuilder output = new StringBuilder();
             for(int i=0;i<n;i++)
                 output.append(a[i]+" ");
