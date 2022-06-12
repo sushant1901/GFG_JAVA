@@ -16,9 +16,6 @@ class RodCutting {
         }
     }
 }
-// } Driver Code Ends
-
-
 class Solution{
     public int cutRod(int price[], int n) {
         int[][] arr = new int[price.length][n+1];
