@@ -16,12 +16,15 @@ class RodCutting {
         }
     }
 }
+// } Driver Code Ends
+
+
 class Solution{
     public int cutRod(int price[], int n) {
-        int[][] arr = new int[price.length][n+1];
-        return maxValue(price, 0, n, arr);
+        //int[][] arr = new int[price.length][n+1];
+        return maxValue(price, 0, n, new HashMap<String,Integer>());
     }
-    public int maxValue(int[] price, int currentIndex, int n, int[][] memo)
+    public int maxValue(int[] price, int currentIndex, int n, HashMap<String,Integer>memo)
     {
         if(n==0){
             return 0;
@@ -30,8 +33,13 @@ class Solution{
             return 0;
         }
         
-        if(memo[currentIndex][n]!=0){
+        /*if(memo[currentIndex][n]!=0){
             return memo[currentIndex][n];
+        }*/
+        String currentKey=Integer.toString(currentIndex)+"-"+Integer.toString(n);
+        
+        if(memo.containsKey(currentKey)){
+            return memo.get(currentKey);
         }
         
         int consider = 0;
@@ -42,8 +50,8 @@ class Solution{
         return 0;
         int notConsider = maxValue(price, currentIndex + 1, n, memo);
         
-        memo[currentIndex][n] = Math.max(consider, notConsider);
-        return memo[currentIndex][n];
+        memo.put(currentKey,Math.max(consider,notConsider));
+        return Math.max(consider,notConsider);
         
     }
 }
