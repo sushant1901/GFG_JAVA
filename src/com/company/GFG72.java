@@ -33,6 +33,7 @@ class Geeks {
             return memo.get(currentKey);
         }
         
+        
         int consider = 0; 
         if(score[currentIndex] <= n){
             consider = totalWays(score, currentIndex, n - score[currentIndex], memo);
