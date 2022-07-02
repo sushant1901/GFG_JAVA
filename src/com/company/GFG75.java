@@ -2,9 +2,6 @@
 import java.util.*;
 import java.util.Stack;
 import java.util.LinkedList;
-
-
-
 class GfG
 {
 	public static void main(String args[])
@@ -44,9 +41,6 @@ class GfG
 		}
 	}
 }
-
-// } Driver Code Ends
-
 
 class StackQueue
 {
