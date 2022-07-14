@@ -3,9 +3,6 @@ import java.util.*;
 class MaxLenZeroSumSub
 {
 
-    // Returns length of the maximum length subarray with 0 sum
-
-    // Drive method
     public static void main(String arg[])
     {
         Scanner sc = new Scanner(System.in);
