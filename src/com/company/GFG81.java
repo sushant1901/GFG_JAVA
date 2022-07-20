@@ -27,9 +27,7 @@ class GFG
         }
     }
 }
-// } Driver Code Ends
-
-
+// }
 class Solution
 {
     ArrayList<Integer> countDistinct(int A[], int n, int k)
