@@ -1,6 +1,3 @@
-//{ Driver Code Starts
-//Initial Template for Java
-
 import java.util.*;
 import java.io.*;
 
@@ -25,12 +22,6 @@ public class Main {
         }
     }
 }
-
-// } Driver Code Ends
-
-
-//User function Template for Java
-
 class Solution {
 
     int removals(int[] arr, int n, int k) {
