@@ -26,11 +26,6 @@ class DriverClass {
         }
     }
 }
-// } Driver Code Ends
-
-
-/*Complete the function below*/
-
 class Solution {
     // Function to detect cycle in a directed graph.
     public boolean isCyclic(int V, ArrayList<ArrayList<Integer>> adj) {
